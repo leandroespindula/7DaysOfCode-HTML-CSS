@@ -4,28 +4,24 @@ Desafios de 7 dias da Alura
 <p align="center">
     <img width= 500 src="public/paraReadme/super-carros.gif"
 </p>  
-
-## 
-    
-https://super-carros.onrender.com/    
-         
+  
 ## Detalhes
 
 
 
 ## Features
 
-- [x] Pagina Inicial
-- [x] Pagina Cadastrar
-- [x] Pagina Detalhes
-- [x] Pagina Editar
-- [x] Função Delelar
+- [x] Header
+- [x] section sobre nós 
+- [] section vagas
+- [] Footer
 
 ## Stacks
 
 <div style="display: inline-block">
     <img align="center" alt="HTML5" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
     <img align="center" alt="CSS3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+    <img align="center" alt="Figma" height="30" width="40" src="https://github.com/devicons/devicon/blob/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg"/>
 </div><br/>
  
 
