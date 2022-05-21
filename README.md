@@ -7,14 +7,14 @@ Desafios de 7 dias da Alura
   
 ## Detalhes
 
+Em construção
 
 
 ## Features
 
 - [x] Header
 - [x] section sobre nós 
-- [] section vagas
-- [] Footer
+- [x] section metricas
 
 ## Stacks
 
