@@ -3,7 +3,8 @@
 :root {
         --vermelho: #8E2424;
         --cinza: #667085;
-        --preto: #101828
+        --preto: #101828;
+        --branco: #FFFFFF;
 }
 
 
@@ -14,6 +15,8 @@
 
 body {
     max-width:100%;
+    width: 100vw;
+    height: 100vh;
     font-family: 'inter', sans-serif;
 }
 
@@ -31,7 +34,7 @@ ul li {
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
-    margin-top: 28px;
+    margin-top: 30px;
 }
 
 header .container__cabecalho #itens__logo {
@@ -61,7 +64,7 @@ header .container__cabecalho #itens__navegacacao nav ul li {
 
 #itens__btn a {
     /* margin-right: 30px; */
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 #itens__btn button {
@@ -69,8 +72,8 @@ header .container__cabecalho #itens__navegacacao nav ul li {
     height: 44px;
     border-radius:8px;
     padding: 10px 18px 10px 18px;
-    background-color: #8E2424;
-    color: #FFFFFF;
+    background-color: var(--vermelho);
+    color: var(--branco);
     border: none;
 }
 
@@ -84,11 +87,13 @@ header .container__cabecalho #itens__navegacacao nav ul li {
 .container__sobreNos span {
     margin-top: 96px;
     margin-bottom: 24px;
+    font-weight:600;
     color: var(--vermelho);
 }
 
 .container__sobreNos h1 {
     margin-bottom: 36px;
+    font-weight: 600;
     color: var(--preto);
 }
 
@@ -96,4 +101,34 @@ header .container__cabecalho #itens__navegacacao nav ul li {
     width: 791px;
     height: 60px;
     text-align: center;
+}
+
+.container__metricas {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 228px;
+    margin-left: 112px;
+}
+
+.container__metricas span {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom:20px;
+    text-align: left;
+}
+
+.container__metricas h2 {
+    color: var(--preto);
+    margin-bottom: 10px;
+}
+
+.container__metricas p {
+    width: 280px;
+    height: 48px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 32px;
 }
