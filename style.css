@@ -132,3 +132,56 @@ header .container__cabecalho #itens__navegacacao nav ul li {
     font-size: 16px;
     margin-right: 32px;
 }
+
+.vagas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+    height: 1798px;
+}
+
+.vagas span {
+    font-weight:600;
+    margin-top:100px;
+    color: var(--vermelho);
+}
+ .vagas h1 {
+     margin-top: 100px;
+     margin-bottom: 20px;
+     font-weight: 600;
+     color: var(--preto)
+ }
+
+ .vagas p {
+     margin-bottom:64px;
+ }
+
+ .vagas img {
+     width: 1216px;
+     height: 400px;
+ }
+ 
+ .vagas .vagas__areas {
+     display: flex;
+     flex-direction: column;
+     background-color: red;
+ }
+ .vagas .vagas__areas div {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .vagas .vagas__areas #titulo__vaga {
+     background-color: rgb(55, 148, 12);
+     display: flex;
+     align-items: flex-start;
+ }
+
+ .vagas div#quadrado {
+     width: 768px;
+     height: 136px;
+     background-color: var(--branco);
+    border-radius:  16px;
+    border: 1px solid red;
+ }
