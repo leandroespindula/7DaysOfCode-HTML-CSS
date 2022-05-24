@@ -162,26 +162,40 @@ header .container__cabecalho #itens__navegacacao nav ul li {
      height: 400px;
  }
  
- .vagas .vagas__areas {
+ /* .vagas .container__vagas {
      display: flex;
      flex-direction: column;
-     background-color: red;
- }
- .vagas .vagas__areas div {
-     display: flex;
-     flex-direction: column;
- }
+     align-items: center;
+ } */
 
- .vagas .vagas__areas #titulo__vaga {
-     background-color: rgb(55, 148, 12);
-     display: flex;
-     align-items: flex-start;
- }
-
- .vagas div#quadrado {
-     width: 768px;
-     height: 136px;
-     background-color: var(--branco);
+.vaga {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    background-color: var(--branco);
+    border: 1px solid black;
     border-radius:  16px;
-    border: 1px solid red;
+    margin-top:24px ;
+    margin-bottom: 64px;
+    padding: 24px 24px 28px;
+ }
+
+ .vagas .informacoes {
+     display: flex;
+     gap: 24px;
+ }
+
+ .vagas .titulo-vaga {
+     display: flex;
+     margin-top: 24px;
+    color: var(--preto);
+ }
+
+ .vagas .informacoes span{
+     color: var(--cinza);
+     margin-top: 32px;
+ }
+
+ .vagas h2 {
+     margin-top: 64px;
  }
