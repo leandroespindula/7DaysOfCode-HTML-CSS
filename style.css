@@ -137,7 +137,6 @@ header .container__cabecalho #itens__navegacacao nav ul li {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 3px solid red;
     height: 1798px;
 }
 
@@ -158,16 +157,10 @@ header .container__cabecalho #itens__navegacacao nav ul li {
  }
 
  .vagas img {
-     width: 1216px;
-     height: 400px;
+    width: 100vh;
+    max-width: 1216px;
  }
  
- /* .vagas .container__vagas {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- } */
-
 .vaga {
     display: flex;
     flex-direction: column;
@@ -198,4 +191,25 @@ header .container__cabecalho #itens__navegacacao nav ul li {
 
  .vagas h2 {
      margin-top: 64px;
+ }
+
+ .container__depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container__depoimentos #quadrado__item{
+     background-color: #C31919;
+     opacity: 3%;
+     margin: 0px 112px 96px 112px;
+     border-radius: 16px;
+     width: 1000px;
+     height: 404px;
+ }
+
+ .container__depoimentos #detalhes__item {
+    background-color: red;
+    display: relative;
  }
