@@ -16,6 +16,7 @@ Em construção
 - [x] section sobre nós 
 - [x] section metricas
 - [x] section vagas
+- [x] section footer
 
 ## Stacks
 
